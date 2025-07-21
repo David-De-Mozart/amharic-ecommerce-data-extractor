@@ -107,19 +107,8 @@ Addis	         141	        3.3	    7,025 ETB	0.30
 License
 This project is licensed under the MIT License - see LICENSE for details.
 
-
-Revoke Telegram credentials:
-
 Generate new API keys at https://my.telegram.org/
 
-Remove credentials from data_ingestion.py:
-
-
-# BEFORE
-api_id = 21894791
-api_hash = 'd4a1d4f8e5c94e2b1a4b6b8c4f7e8a9b'
-
-# AFTER
 api_id = os.getenv('TELEGRAM_API_ID')
 api_hash = os.getenv('TELEGRAM_API_HASH')
 
