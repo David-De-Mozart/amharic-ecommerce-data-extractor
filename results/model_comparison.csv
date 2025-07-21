@@ -1,0 +1,4 @@
+,f1,precision,recall,speed
+spacy-cnn,0.0,0.0,0.0,0
+xlm-roberta,0.0,0.0,0.0,0
+distilbert,0.35714285714285715,0.39473684210526316,0.32608695652173914,0

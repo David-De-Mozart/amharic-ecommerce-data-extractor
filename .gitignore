@@ -205,3 +205,83 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.venv*/
+venv*/
+
+# Data files
+data/raw/images/
+data/processed/ner_results.csv
+
+# Models
+models/
+
+# Environment variables
+.env
+.secrets
+.session
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter notebooks
+*.ipynb
+*.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output files
+wandb/
+debug*
+
+# Large files
+*.pt
+*.bin
+*.h5
+*.tar.gz
+
+# Exceptions (keep these files)
+!data/labeled/*.conll
+!data/processed/vendor_scorecard.csv
+!reports/*.pdf
+!results/model_comparison.csv
+
+# Session files
+ethio_ecommerce_session*
+*.session
+*.session-journal
+
+# Sensitive data
+data/raw/
+models/
+wandb/
+
+# Environment files
+.venv/
+.venv311/
+venv311/
+venv/
+env/
+.env
+
+# System files
+__pycache__/
+*.pyc
+.DS_Store
